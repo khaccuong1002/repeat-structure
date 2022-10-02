@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập số cần kiểm tra"));
+    let n = 0;
+    let i;
+    for (i = 1; i <= num; i++) {
+        if (num % i == 0) {
+            n++;
+        }
+    }
+    if (n == 2) {
+        alert("Là số nguyên tố");
+    } else {
+        alert("Không phải số nguyên tố");
+    }
+</script>
+
+<!--<script src="prime-exercises.js"> </script>-->
+</body>
+</html>

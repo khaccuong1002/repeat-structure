@@ -1,0 +1,3 @@
+function checkSNT(number) {
+    let
+}
